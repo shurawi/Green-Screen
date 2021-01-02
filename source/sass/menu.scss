@@ -1,0 +1,102 @@
+.menu {
+  padding: 20px 0 0 30px;
+  grid-area: menu;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  background-color: #5957DB;
+}
+
+.menu__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__item--active {
+  background-color: #ECF2FF;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+
+.menu__link {
+  position: relative;
+  padding: 23px 0 23px 60px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Montserrat-Bold", "Arial, sans-serif";
+  color: #ffffff;
+  text-decoration: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    width: 18px;
+    height: 22px;
+  }
+}
+
+.menu__link--sessions::before {
+  background: url("../img/sessions_icon.svg") no-repeat;
+}
+
+.menu__link--trailers::before {
+  background: url("../img/trailers_icon.svg") no-repeat;
+}
+
+.menu__link--news::before {
+  background: url("../img/news_icon.svg") no-repeat;
+}
+
+.menu__link--about::before {
+  background: url("../img/about_icon.svg") no-repeat;
+}
+
+.menu__link--contacts::before {
+  background: url("../img/contacts_icon.svg") no-repeat;
+}
+
+.menu__link--active {
+  color: #5957DB;
+
+  &.menu__link--sessions::before {
+    background: url("../img/sessions-active_icon.svg") no-repeat;
+  }
+
+  &.menu__link--trailers::before {
+    background: url("../img/trailers-active_icon.svg") no-repeat;
+  }
+
+  &.menu__link--news::before {
+    background: url("../img/news-active_icon.svg") no-repeat;
+  }
+
+  &.menu__link--about::before {
+    background: url("../img/about-active_icon.svg") no-repeat;
+  }
+
+  &.menu__link--contacts::before {
+    background: url("../img/contacts-active_icon.svg") no-repeat;
+  }
+}
+
+.menu__link--profile {
+  display: inline-block;
+  margin-bottom: 45px;
+  padding-left: 82px;
+
+  &::before {
+    top: 11px;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    background-image: url("../img/profile_icon.svg");
+    background-repeat: no-repeat;
+    background-size: 40px 30px;
+    background-position: 0 10px;
+    border-radius: 50%;
+  }
+}
