@@ -57,32 +57,34 @@
         <a class="menu__link menu__link--profile" href="#">Аккаунт</a>
       </section>
       <section class="order">
-        <h2>Выбор даты и времени</h2>
+        <h2 class="visually-hidden">Бронирование билетов</h2>
         <div class="date">
-          <h2>Выбор даты</h2>
-          <ul class="memu__list">
+          <h2 class="visually-hidden">Выбор даты</h2>
+          <button class="date__btn date__btn--control date__btn--left" type="button" name="date__btn--left"></button>
+          <ul class="date__list">
             <li class="date__item">
-              <button class="date__btn" type="button" name="button">
+              <button class="date__btn date__btn--content" type="button" name="button">
                 <h3 class="date__head">22 сентября</h3>
                 <p class="date__text">четверг</p>
               </button>
             </li>
             <li class="date__item">
-              <button class="date__btn" type="button" name="button">
+              <button class="date__btn date__btn--content date__btn--active" type="button" name="button">
                 <h3 class="date__head">23 сентября</h3>
                 <p class="date__text">пятница</p>
               </button>
             </li>
             <li class="date__item">
-              <button class="date__btn" type="button" name="button">
+              <button class="date__btn date__btn--content" type="button" name="button">
                 <h3 class="date__head">24 сентября</h3>
                 <p class="date__text">суббота</p>
               </button>
             </li>
           </ul>
+          <button class="date__btn date__btn--control date__btn--right" type="button" name="date__btn--right"></button>
         </div>
         <div class="time">
-          <h2>Выбор времени</h2>
+          <h2 class="visually-hidden">Выбор времени</h2>
           <div class="time__row">
             <p class="time__text"></p>
             <ul class="time__list">

@@ -11,10 +11,11 @@ body {
 }
 
 h2,
-h3 {
+h3,
+p,
+ul {
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
 }
 
 nav {
@@ -28,6 +29,15 @@ nav {
   grid-template-columns: 260px auto 360px;
 }
 
+.order {
+  margin: 60px 60px 0;
+  grid-area: order;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-column-gap: 30px;
+  grid-template-rows: repeat(4, auto);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -36,11 +46,6 @@ nav {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
   overflow: hidden;
-}
-
-.wrap {
-  width: 1166px;
-  margin: 0 auto;
 }
 
 @font-face {

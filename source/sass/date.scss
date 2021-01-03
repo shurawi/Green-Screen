@@ -1,0 +1,73 @@
+.date {
+  grid-column: 1 / span 11;
+  grid-row: 1 / span 1;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-column-gap: 30px;
+}
+
+.date__list {
+  grid-column: 2 / span 9;
+  list-style: none;
+  display: flex;
+}
+
+.date__item {
+  width: 300px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.date__btn {
+  height: 120px;
+  background-color: #ecf2ff;
+  border: none;
+  border-radius: 8px;
+  color: #5957db;
+}
+
+.date__btn--left {
+  grid-column: 1 / span 1;
+}
+
+.date__btn--content {
+  width: 100%;
+  padding: 30px;
+}
+
+.date__btn--active {
+  color: #ffffff;
+  background-color: #43d000;
+  box-shadow: 0 8px 20px rgba(67, 208, 0, 0.6);
+}
+
+.date__btn--control {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 10px;
+    height: 20px;
+    background: url("../img/arrow_icon.svg") no-repeat;
+  }
+}
+
+.date__btn--right::before {
+  transform: rotate(180deg);
+}
+
+.date__head {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+}
+
+.date__text {
+  font-size: 16px;
+  font-size: 20px;
+}

@@ -1,6 +1,6 @@
 .head {
   margin: 0 auto;
-  background-color: #ECF2FF;
+  background-color: #ecf2ff;
 }
 
 .head__wrap {
@@ -12,6 +12,7 @@
 }
 
 .head__nav {
+  margin-top: 10px;
   grid-column: 2 / span 6;
 }
 
@@ -28,7 +29,7 @@
   line-height: 20px;
   font-family: "Montserrat-Bold", "Arial, sans-serif";
   text-decoration: none;
-  color: #5957DB;
+  color: #5957db;
 
   &:not(.head__link--logo)::after {
     content: "";
@@ -61,7 +62,7 @@
   line-height: 20px;
   font-family: "Montserrat-Bold", "Arial, sans-serif";
   text-transform: uppercase;
-  color: #5957DB;
+  color: #5957db;
   background-color: #ffffff;
   border: none;
   border-radius: 8px;
