@@ -3,7 +3,7 @@
   grid-area: menu;
   display: grid;
   grid-template-rows: 1fr auto;
-  background-color: #5957DB;
+  background-color: #5957db;
 }
 
 .menu__list {
@@ -13,11 +13,10 @@
 }
 
 .menu__item--active {
-  background-color: #ECF2FF;
+  background-color: #ecf2ff;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }
-
 
 .menu__link {
   position: relative;
@@ -61,7 +60,7 @@
 }
 
 .menu__link--active {
-  color: #5957DB;
+  color: #5957db;
 
   &.menu__link--sessions::before {
     background: url("../img/sessions-active_icon.svg") no-repeat;
