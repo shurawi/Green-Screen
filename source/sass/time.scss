@@ -29,8 +29,9 @@
 }
 
 .time__list {
-  list-style: none;
+  grid-column: 2 / span 10;
   display: flex;
+  list-style: none;
 }
 
 .time__item {
