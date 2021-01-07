@@ -56,7 +56,7 @@ nav {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff.woff") format("woff");
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
 }
 
 
@@ -66,4 +66,12 @@ nav {
   font-style: normal;
   font-display: swap;
   src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "CourierNewPS-Bold";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/CourierNewPS-Bold.woff2") format("woff2"), url("../fonts/CourierNewPS-Bold.woff") format("woff");
 }

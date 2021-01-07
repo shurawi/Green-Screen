@@ -8,6 +8,8 @@
     <link href="fonts/Montserrat-Regular.woff2" as="font" rel="preload">
     <link href="fonts/Montserrat-Bold.woff" as="font" rel="preload">
     <link href="fonts/Montserrat-Bold.woff2" as="font" rel="preload">
+    <link href="fonts/CourierNewPS-Bold.woff" as="font" rel="preload">
+    <link href="fonts/CourierNewPS-Bold.woff2" as="font" rel="preload">
     <title>Green Screen. Продажа билетов в кино</title>
   </head>
   <body>
@@ -196,28 +198,34 @@
             </div>
           </div>
         </div>
-        <form class="card" action="index.html" method="post">
-          <div class="card__name">
-            <input class="card__csv" type="text" name="">
-            <p class="card__name">SuperCard</p>
-          </div>
-          <div class="">
-            <input class="card__number" type="text" name="" value="" placeholder="1234">
-            <input class="card__number" type="text" name="" value="" placeholder="5678">
-            <input class="card__number" type="text" name="" value="" placeholder="9012">
-            <input class="card__number" type="text" name="" value="" placeholder="3456">
-          </div>
-          <div class="card__content">
-            <p class="card__owner">Opoznanniy Enot</p>
-            <div class="card__date">
-              <input class="card__month" type="text" name="" value="20">
-              <p class="card__text">/</p>
-              <input class="card__year" type="text" name="" value="99">
+        <div class="card">
+          <h2 class="cart__head">Оплата</h2>
+          <form class="card__form" action="index.html" method="post">
+            <div class="card__content">
+              <div class="card__sing">
+                <input class="card__csv" type="text" name="" placeholder="CSV">
+                <p class="card__name">SuperCard</p>
+              </div>
+              <div class="card__cardnumber">
+                <input class="card__number" type="text" name="" value="" placeholder="1234">
+                <input class="card__number" type="text" name="" value="" placeholder="5678">
+                <input class="card__number" type="text" name="" value="" placeholder="9012">
+                <input class="card__number" type="text" name="" value="" placeholder="3456">
+              </div>
+              <div class="card__info">
+                <p class="card__owner">Opoznanniy Enot</p>
+                <div class="card__time">
+                  <input class="card__date card__date--month" type="text" name="" placeholder="20">
+                  <p class="card__text">/</p>
+                  <input class="card__date card__date--year" type="text" name="" placeholder="99">
+                </div>
+              </div>
             </div>
-          </div>
-          <button class="card__add" type="button" name="button">+</button>
-          <button class="card__pay" type="button" name="button">Оплатить<span> 800 &#8381;</span></button>
-        </form>
+            <button class="card__add" type="button" name="button">добавить карту оплаты</button>
+            <button class="card__pay" type="submit" name="button">Оплатить<span> 800 &#8381;</span></button>
+          </form>
+
+        </div>
       </section>
     </main>
   </body>

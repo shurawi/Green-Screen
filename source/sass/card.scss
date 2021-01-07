@@ -1,0 +1,150 @@
+.card {
+  padding: 26px 60px 40px;
+  background-color: #ecf2ff;
+}
+
+.cart__head {
+  padding: 16px 0 20px;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+}
+
+.card__content {
+  padding: 30px;
+  background-color: #5957db;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(89, 87, 219, 0.6);
+}
+
+.card__sing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__csv {
+  width: 38px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  text-align: center;
+  color: #666666;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+
+  &::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+    font-family: "Montserrat-Bold", "Arial", sans-serif;
+    color: inherit;
+  }
+}
+
+.card__name {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  color: #ffffff;
+}
+
+.card__cardnumber {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card__number {
+  width: 38px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "CourierNewPS-Bold", "Arial", sans-serif;
+  color: #ffffffff;
+  background-color: #5957db;
+  border: none;
+  outline: none;
+
+  &::placeholder {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "CourierNewPS-Bold", "Arial", sans-serif;
+    color: #ffffffff;
+  }
+}
+
+.card__info {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__owner {
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "CourierNewPS-Bold", "Arial", sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.card__time {
+  width: 46px;
+  display: flex;
+}
+
+.card__date {
+  width: 19px;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "CourierNewPS-Bold", "Arial", sans-serif;
+  background-color: #5957db;
+  color: rgba(255, 255, 255, 0.5);
+  border: none;
+  outline: none;
+
+  &::placeholder {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: "CourierNewPS-Bold", "Arial", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.card__text {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "CourierNewPS-Bold", "Arial", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.card__add {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  font-size: 0px;
+  color: #ccdaf4;
+  background-color: #ecf2ff;
+  border: 2px solid #ccdaf4;
+  border-radius: 6px;
+  background-image: url("../img/plus_icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+
+.card__pay {
+  width: 100%;
+  height: 60px;
+  margin-top: 60px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Montserrat-Bold", "Arial", sans-serif;
+  color: #ffffffff;
+  background-color: #43d000;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+}
