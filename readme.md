@@ -1,3 +1,5 @@
+<img width="98" height="40" alt="Green_Screen logo" src="https://github.com/shurawi/Green-Screen/blob/master/source/img/logo.png">
+
 # Страница приложения «Green Screen» — продажа билетов в кино
 
 ## Краткое описание
@@ -25,4 +27,4 @@ npm i
 ```bush
 npm run start
 ```
-Данный макет входит в состав курса "Профессиональные навыки" раздела "Построение сеток на гридах по макету" [htmlacademy](https://htmlacademy.ru/skills)
+Страница создана по макету входящему в состав курса "Профессиональные навыки" раздела "Построение сеток на гридах по макету" [htmlacademy](https://htmlacademy.ru/skills)
