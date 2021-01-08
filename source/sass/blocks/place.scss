@@ -14,9 +14,9 @@
   grid-column: 6 / span 1;
   font-size: 16px;
   line-height: 20px;
-  color: #ccdaf4;
   text-transform: uppercase;
   text-align: center;
+  color: #ccdaf4;
 }
 
 .place__row {
@@ -36,20 +36,20 @@
 
 .place__list {
   grid-column: 2 / span 10;
-  display:flex;
+  display: flex;
   list-style: none;
 }
 
 .place__list--first {
-  grid-column: 4 / span 7
+  grid-column: 4 / span 7;
 }
 
 .place__text {
   grid-column: 1 / span 1;
   font-size: 16px;
   line-height: 20px;
-  text-transform: uppercase;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
+  text-transform: uppercase;
 }
 
 .place__item {
@@ -70,8 +70,8 @@
   font-family: "Montserrat-Bold", "Arial", sans-serif;
   color: #ccdaf4;
   background-color: #ffffff;
-  border: none;
   background-image: url("../img/place-btn-free_icon.svg");
+  border: none;
 }
 
 .place__btn--busy {

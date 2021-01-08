@@ -10,9 +10,9 @@
   align-self: center;
   font-size: 16px;
   line-height: 20px;
-  color: #ffffff;
-  text-transform: uppercase;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
   background-color: #43d000;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
@@ -23,11 +23,11 @@
   font-size: 12px;
   line-height: 14px;
   background-color: #ffffff;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
   background-image: url("../img/ticket_bg-right.svg"), url("../img/ticket_bg-left.svg"), url("../img/time-bg_icon.svg");
   background-repeat: no-repeat, no-repeat, repeat-x;
-  background-position: bottom 78px right, bottom 78px left,bottom 85px center;
+  background-position: bottom 78px right, bottom 78px left, bottom 85px center;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .ticket__roster {
