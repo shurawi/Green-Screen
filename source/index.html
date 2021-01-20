@@ -39,7 +39,7 @@
         <h2 class="visually-hidden">Навигация по нашему сайту</h2>
         <nav class="menu__nav">
           <ul class="menu__list">
-            <li class="menu__item menu__item--active">
+            <li class="menu__item">
               <a class="menu__link menu__link--sessions menu__link--active" href="#">Сеансы</a>
             </li>
             <li class="menu__item">
@@ -62,28 +62,28 @@
         <h2 class="visually-hidden">Бронирование билетов</h2>
         <div class="date">
           <h2 class="visually-hidden">Выбор даты</h2>
-          <button class="date__btn date__btn--control date__btn--left" type="button" name="date__btn--left"></button>
+          <button class="date__control date__control--left" type="button" name="date__btn--left"></button>
           <ul class="date__list">
             <li class="date__item">
-              <button class="date__btn date__btn--content" type="button" name="button">
+              <button class="date__btn" type="button" name="button">
                 <h3 class="date__head">22 сентября</h3>
                 <p class="date__text">четверг</p>
               </button>
             </li>
             <li class="date__item">
-              <button class="date__btn date__btn--content date__btn--active" type="button" name="button">
+              <button class="date__btn date__btn--active" type="button" name="button">
                 <h3 class="date__head">23 сентября</h3>
                 <p class="date__text">пятница</p>
               </button>
             </li>
             <li class="date__item">
-              <button class="date__btn date__btn--content" type="button" name="button">
+              <button class="date__btn" type="button" name="button">
                 <h3 class="date__head">24 сентября</h3>
                 <p class="date__text">суббота</p>
               </button>
             </li>
           </ul>
-          <button class="date__btn date__btn--control date__btn--right" type="button" name="date__btn--right"></button>
+          <button class="date__control date__control--right" type="button" name="date__btn--right"></button>
         </div>
         <div class="time">
           <h2 class="visually-hidden">Выбор времени</h2>
@@ -119,19 +119,19 @@
             <p class="place__text">Ряд 1</p>
             <ul class="place__list place__list--first">
               <li class="place__item">
-                <button class="place__btn" type="button" name="button">1</button>
+                <button class="place__btn place__btn--free" type="button" name="button">1</button>
               </li>
               <li class="place__item">
-                <button class="place__btn" type="button" name="button">2</button>
+                <button class="place__btn place__btn--free" type="button" name="button">2</button>
               </li>
               <li class="place__item">
                 <button class="place__btn place__btn--busy" type="button" name="button">3</button>
               </li>
               <li class="place__item">
-                <button class="place__btn" type="button" name="button">4</button>
+                <button class="place__btn place__btn--free" type="button" name="button">4</button>
               </li>
               <li class="place__item">
-                <button class="place__btn" type="button" name="button">5</button>
+                <button class="place__btn place__btn--free" type="button" name="button">5</button>
               </li>
             </ul>
           </div>
@@ -139,13 +139,13 @@
             <p class="place__text">Ряд 2</p>
             <ul class="place__list place__list--second">
               <li class="place__item">
-                <button class="place__btn" type="button" name="button">1</button>
+                <button class="place__btn place__btn--free" type="button" name="button">1</button>
               </li>
               <li class="place__item">
                 <button class="place__btn place__btn--busy" type="button" name="button">2</button>
               </li>
               <li class="place__item">
-                <button class="place__btn" type="button" name="button">3</button>
+                <button class="place__btn place__btn--free" type="button" name="button">3</button>
               </li>
               <li class="place__item">
                 <button class="place__btn place__btn--select" type="button" name="button">4</button>
@@ -157,13 +157,13 @@
                 <button class="place__btn place__btn--busy" type="button" name="button">6</button>
               </li>
               <li class="place__item">
-                <button class="place__btn" type="button" name="button">7</button>
+                <button class="place__btn place__btn--free" type="button" name="button">7</button>
               </li>
               <li class="place__item">
                 <button class="place__btn place__btn--busy" type="button" name="button">8</button>
               </li>
               <li class="place__item">
-                <button class="place__btn" type="button" name="button">9</button>
+                <button class="place__btn place__btn--free" type="button" name="button">9</button>
               </li>
             </ul>
           </div>
@@ -225,8 +225,8 @@
               </li>
             </ul>
             </div>
-            <button class="card__add" type="button" name="button">добавить карту оплаты</button>
-            <button class="card__pay" type="submit" name="button">Оплатить<span> 800 &#8381;</span></button>
+            <button class="card__btn card__btn--add" type="button" name="button">добавить карту оплаты</button>
+            <button class="card__btn card__btn--pay" type="submit" name="button">Оплатить<span> 800 &#8381;</span></button>
           </form>
         </div>
       </section>

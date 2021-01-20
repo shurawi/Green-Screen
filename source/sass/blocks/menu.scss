@@ -12,14 +12,9 @@
   list-style: none;
 }
 
-.menu__item--active {
-  background-color: #ecf2ff;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-}
-
 .menu__link {
   position: relative;
+  width: 100%;
   padding: 23px 0 23px 60px;
   display: inline-block;
   font-size: 14px;
@@ -28,6 +23,35 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  transition: 1.5s ease;
+
+  &:focus:not(.menu__link--active),
+  &:hover:not(.menu__link--active) {
+    color: #5957db;
+    background-color: #ffffff;
+
+    &.menu__link--sessions::before {
+      background: url("../img/sessions-active_icon.svg") no-repeat;
+    }
+
+    &.menu__link--trailers::before {
+      background: url("../img/trailers-active_icon.svg") no-repeat;
+    }
+
+    &.menu__link--news::before {
+      background: url("../img/news-active_icon.svg") no-repeat;
+    }
+
+    &.menu__link--about::before {
+      background: url("../img/about-active_icon.svg") no-repeat;
+    }
+
+    &.menu__link--contacts::before {
+      background: url("../img/contacts-active_icon.svg") no-repeat;
+    }
+  }
 
   &::before {
     content: "";
@@ -61,6 +85,7 @@
 
 .menu__link--active {
   color: #5957db;
+  background-color: #ecf2ff;
 
   &.menu__link--sessions::before {
     background: url("../img/sessions-active_icon.svg") no-repeat;

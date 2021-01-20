@@ -68,10 +68,22 @@
   font-size: 16px;
   line-height: 20px;
   font-family: "Montserrat-Bold", "Arial", sans-serif;
-  color: #ccdaf4;
   background-color: #ffffff;
-  background-image: url("../img/place-btn-free_icon.svg");
   border: none;
+  outline: none;
+
+  &:hover:not(.place__btn--busy),
+  &:focus:not(.place__btn--busy) {
+    background-position: -1px -1px;
+    border: 2px solid rgba(67, 208, 0, 0.6);
+    border-radius: 6px;
+  }
+}
+
+.place__btn--free {
+  color: #ccdaf4;
+  background-image: url("../img/place-btn-free_icon.svg");
+  cursor: pointer;
 }
 
 .place__btn--busy {
@@ -82,4 +94,5 @@
 .place__btn--select {
   color: #ffffff;
   background-image: url("../img/place-btn-select_icon.svg");
+  cursor: pointer;
 }

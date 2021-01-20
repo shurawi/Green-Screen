@@ -51,6 +51,15 @@
   background-color: #ecf2ff;
   border: none;
   border-radius: 30px;
+  outline: none;
+  transition: 1s ease;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: #ecf2ff;
+    background-color: #5957db;
+  }
 }
 
 .time__btn--active {
