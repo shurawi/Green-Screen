@@ -55,8 +55,8 @@
   transition: 1s ease;
   cursor: pointer;
 
-  &:hover,
-  &:focus {
+  &:hover:not(.time__btn--active),
+  &:focus:not(.time__btn--active) {
     color: #ecf2ff;
     background-color: #5957db;
   }

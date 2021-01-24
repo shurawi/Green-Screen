@@ -26,6 +26,7 @@
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   transition: 1.5s ease;
+  outline: none;
 
   &:focus:not(.menu__link--active),
   &:hover:not(.menu__link--active) {
