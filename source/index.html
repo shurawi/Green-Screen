@@ -205,21 +205,21 @@
               <li class="card__item">
                 <div class="card__content" id="card">
                   <div class="card__sign">
-                    <input class="card__csv" type="text" name="card__csv" placeholder="CSV">
+                    <input class="card__csv" type="text" name="card__csv" placeholder="CSV" required pattern="[0-9]{3}" title="Введите CSV код на обороте вашей карты">
                     <p class="card__name">SuperCard</p>
                   </div>
                   <div class="card__cardnumber">
-                    <input class="card__number" type="text" name="card__number" placeholder="1234">
-                    <input class="card__number" type="text" name="card__number" placeholder="5678">
-                    <input class="card__number" type="text" name="card__number" placeholder="9012">
-                    <input class="card__number" type="text" name="card__number" placeholder="3456">
+                    <input class="card__number" type="text" name="card__number" placeholder="1234" required pattern="[0-9]{4}" title="введите первый блок из 4-х цифры вашей карты">
+                    <input class="card__number" type="text" name="card__number" placeholder="5678" required pattern="[0-9]{4}" title="введите второй блок из 4-х цифры вашей карты">
+                    <input class="card__number" type="text" name="card__number" placeholder="9012" required pattern="[0-9]{4}" title="введите третий блок из 4-х цифры вашей карты">
+                    <input class="card__number" type="text" name="card__number" placeholder="3456" required pattern="[0-9]{4}" title="введите четвертый блок из 4-х цифры вашей карты">
                   </div>
                   <div class="card__info">
                     <p class="card__owner">Opoznanniy Enot</p>
                     <div class="card__time">
-                      <input class="card__date card__date--month" type="text" name="card__date--month" placeholder="20">
+                      <input class="card__date card__date--month" type="text" name="card__date--month" placeholder="12" required pattern="[0-1]{1}[0-9]{1}" title="введите срок действия вашей карты 'месяц'">
                       <p class="card__text">/</p>
-                      <input class="card__date card__date--year" type="text" name="card__date--year" placeholder="99">
+                      <input class="card__date card__date--year" type="text" name="card__date--year" placeholder="99" required pattern="[0-9]{2}" title="введите срок действия вашей карты 'год'">
                     </div>
                   </div>
                 </div>

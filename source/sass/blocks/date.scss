@@ -63,7 +63,8 @@
     transition: 1s ease;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     border: 2px solid #ccdaf4;
   }
 }

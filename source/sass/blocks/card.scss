@@ -45,6 +45,13 @@
     font-family: "Montserrat-Bold", "Arial", sans-serif;
     color: inherit;
   }
+
+  &:hover,
+  &:focus {
+    color: #5957db;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(67, 208, 0, 0.6);
+  }
 }
 
 .card__name {
@@ -66,7 +73,7 @@
   font-size: 14px;
   line-height: 16px;
   font-family: "CourierNewPS-Bold", "Arial", sans-serif;
-  color: #ffffffff;
+  color: #ffffff;
   background-color: #5957db;
   border: none;
   outline: none;
@@ -75,7 +82,14 @@
     font-size: 14px;
     line-height: 16px;
     font-family: "CourierNewPS-Bold", "Arial", sans-serif;
-    color: #ffffffff;
+    color: #ffffff;
+  }
+
+  &:hover,
+  &:focus {
+    color: #5957db;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(67, 208, 0, 0.6);
   }
 }
 
@@ -113,6 +127,13 @@
     line-height: 14px;
     font-family: "CourierNewPS-Bold", "Arial", sans-serif;
     color: rgba(255, 255, 255, 0.5);
+  }
+
+  &:hover,
+  &:focus {
+    color: #5957db;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(67, 208, 0, 0.6);
   }
 }
 
